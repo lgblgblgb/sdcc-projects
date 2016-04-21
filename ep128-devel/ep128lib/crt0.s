@@ -1,6 +1,8 @@
 ;--------------------------------------------------------------------------
-;  crt0.s - Generic crt0.s for a Z80
+;  crt0.s - Specific crt0.s for Enterprise-128 based on the generic for Z80
 ;
+;  Copyright (C) 2016, Gabor Lenart (LGB)
+;  Author of the original generic Z80 crt:
 ;  Copyright (C) 2000, Michael Hope
 ;
 ;  This library is free software; you can redistribute it and/or modify it
