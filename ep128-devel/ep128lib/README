@@ -1,0 +1,11 @@
+In this directory you can find some kind of Enterprise-128 specific library
+code for SDCC. It simply takes the "official" z80.lib from an installed SDCC,
+and replaces some object files, keeping the others as-is.
+
+Also, crt0.s implements a very simple CRT to form Enterprise EXOS type-5 files.
+
+Please note, that I'm far from being an SDCC expert. For example, I cannot find
+out how I can generate files with a header, then CODE segment with origin of
+0x100. Whatever I tried, I got files with bytes from origin of zero :( So I have
+to use a "cut" method, to cut the unwanted part of the result off :-/
+
