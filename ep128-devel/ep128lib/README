@@ -9,3 +9,5 @@ out how I can generate files with a header, then CODE segment with origin of
 0x100. Whatever I tried, I got files with bytes from origin of zero :( So I have
 to use a "cut" method, to cut the unwanted part of the result off :-/
 
+Z80.LIB is the _original_ z80.lib from sdcc project.
+
