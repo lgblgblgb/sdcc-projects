@@ -1,32 +1,16 @@
-# Object files
 *.o
-*.ko
 *.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
 *.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
+*.lst
+*.rel
+*.sym
+*.bin
+*.com
+*.ihx
+*.lk
+*.map
+*.mem
+*.noi
 *.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
+*.rst
+ep128-devel/ep128lib/official_lib
